@@ -20,7 +20,7 @@ Arduinoの開発にはC言語が用いられています。
 ## 計測デバイス
 ### 必要な機材
 - Arduino NANO：1個
-- 気象観測センサ（BME280）：1個
+- 気象観測センサモジュール（BME280）：1個
 - SDカードモジュール：1個
 - Micro SDカード（32GB以下）：1個
 - ブレッドボード：1個
@@ -41,7 +41,19 @@ Arduinoには専用の統合開発環境（IDE）が用意されており、こ�
 Arduino Nano<br>
 
 <img src="https://user-images.githubusercontent.com/105481222/218243513-00cad4d9-73d2-409c-a94e-62d45b7c45f3.jpg" width="50%"><br>
-Arduino ピン配置<br>
+ピン配置<br>
+
+### 気象観測センサモジュール（BME280）
+BOSCH社のBME280を搭載した環境測定センサモジュールであり、気温・湿度・気圧の3つの環境情報を同時に計測することができます。<br>
+BME280では、マイコンとの通信方式としてI2CまたはSPIをサポートしています。<br>
+本ライブラリでは、インターフェースとしてI2Cを用いることを想定しています。
+
+<img src="https://user-images.githubusercontent.com/105481222/218245608-8fbaba36-5758-4598-a51d-9201fee508c5.jpg" width="50%"><br>
+気象観測センサモジュール（BME280）<br>
+
+<img src="https://user-images.githubusercontent.com/105481222/218245691-f0bd3f5f-20c4-4b2c-bc0c-75650d625a0f.jpg" width="50%"><br>
+回路図<br>
+
 
 
 ## 動作環境
