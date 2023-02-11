@@ -40,6 +40,7 @@ Arduinoには専用の統合開発環境（IDE）が用意されており、こ�
 <img src="https://user-images.githubusercontent.com/105481222/218243370-ba12f5e0-2bc8-4940-895f-f8c322819a36.jpg" width="30%">
 Arduino Nano<br>
 
+<br>
 <img src="https://user-images.githubusercontent.com/105481222/218243513-00cad4d9-73d2-409c-a94e-62d45b7c45f3.jpg" width="50%">
 ピン配置<br>
 
