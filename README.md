@@ -37,10 +37,10 @@ Arduinoは、Atmel社が開発したRISCベースの8bitマイクロコントロ
 Arduinoには専用の統合開発環境（IDE）が用意されており、これを使うことで簡単に組込みシステムやIoTを学習することができます。<br>
 使用する機材は、[Arduino NANO](https://store-usa.arduino.cc/products/arduino-nano/)です。
 
-<img src="https://user-images.githubusercontent.com/105481222/218243370-ba12f5e0-2bc8-4940-895f-f8c322819a36.jpg" width="30%"><br>
+<img src="https://user-images.githubusercontent.com/105481222/218243370-ba12f5e0-2bc8-4940-895f-f8c322819a36.jpg" width="30%">
 Arduino Nano<br>
 
-<img src="https://user-images.githubusercontent.com/105481222/218243513-00cad4d9-73d2-409c-a94e-62d45b7c45f3.jpg" width="50%"><br>
+<img src="https://user-images.githubusercontent.com/105481222/218243513-00cad4d9-73d2-409c-a94e-62d45b7c45f3.jpg" width="50%">
 ピン配置<br>
 
 ### 気象観測センサモジュール（BME280）
@@ -52,6 +52,7 @@ BME280では、マイコンとの通信方式としてI2CまたはSPIをサポ�
 <img src="https://user-images.githubusercontent.com/105481222/218245608-8fbaba36-5758-4598-a51d-9201fee508c5.jpg" width="30%">
 気象観測センサモジュール（BME280）<br>
 
+<br>
 <br>
 <img src="https://user-images.githubusercontent.com/105481222/218245691-f0bd3f5f-20c4-4b2c-bc0c-75650d625a0f.jpg" width="50%">
 回路図<br>
