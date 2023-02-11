@@ -58,6 +58,15 @@ BME280では、マイコンとの通信方式としてI2CまたはSPIをサポ�
 <img src="https://user-images.githubusercontent.com/105481222/218245691-f0bd3f5f-20c4-4b2c-bc0c-75650d625a0f.jpg" width="50%">
 回路図<br>
 
+### SDカードモジュール
+計測したデータを記録するために、SDカードモジュールを使用します。
+本ライブラリでは、インターフェースとしてSPIを用いることを想定しています。
+
+<br>
+<img src="https://user-images.githubusercontent.com/105481222/218246588-92a46c8e-e7f7-4d93-a7ab-cc07eb1bc854.jpg" width="30%">
+SDカードモジュール<br>
+
+
 ## 動作環境
 
 
