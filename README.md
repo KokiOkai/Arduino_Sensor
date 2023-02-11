@@ -37,10 +37,10 @@ Arduinoは、Atmel社が開発したRISCベースの8bitマイクロコントロ
 Arduinoには専用の統合開発環境（IDE）が用意されており、これを使うことで簡単に組込みシステムやIoTを学習することができます。<br>
 使用する機材は、[Arduino NANO](https://store-usa.arduino.cc/products/arduino-nano/)です。
 
-![Arduino_NANO](https://user-images.githubusercontent.com/105481222/218243370-ba12f5e0-2bc8-4940-895f-f8c322819a36.jpg | width=200)<br>
+![Arduino_NANO](https://user-images.githubusercontent.com/105481222/218243370-ba12f5e0-2bc8-4940-895f-f8c322819a36.jpg){: width="50%"}<br>
 Arduino Nano<br>
 
-![Arduino-NANO_ピン配置](https://user-images.githubusercontent.com/105481222/218243513-00cad4d9-73d2-409c-a94e-62d45b7c45f3.jpg | width=200)<br>
+![Arduino-NANO_ピン配置](https://user-images.githubusercontent.com/105481222/218243513-00cad4d9-73d2-409c-a94e-62d45b7c45f3.jpg){: width="50%"}<br>
 Arduino ピン配置<br>
 
 
