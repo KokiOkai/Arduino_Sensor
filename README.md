@@ -1,5 +1,5 @@
 # Arduino_Sensor
-**Arduino_Sensor**はArduinoとセンサを用いて構成する、気温・湿度・気圧の計測デバイス用ライブラリです。<br>
+**Arduino_Sensor**は、Arduinoとセンサを用いて構成する、気温・湿度・気圧の計測デバイス用ライブラリです。<br>
 <br>
 
 
@@ -12,9 +12,13 @@
 
 
 ## 概要
+**Arduino_Sensor**は、Arduinoとセンサを用いて構成する、気温・湿度・気圧の計測デバイス用ライブラリです。<br>
+Arduino専用の統合開発環境（IDE）をインストールする必要があります。<br>
+Arduinoの開発にはC言語が用いられています。
 
 
 ## 計測デバイス
+### 必要な機材
 - Arduino NANO：1個
 - 気象観測センサ（BME280）：1個
 - SDカードモジュール：1個
@@ -24,9 +28,15 @@
 - 10kΩ抵抗：1個
 - 1kΩ抵抗：1個
 - 青色LED：1個
-- ケーブル（USB Type-A ↔ Micro USB Type-B）：1個
+- ケーブル（USB Type-A ⇔ Micro USB Type-B）：1個
 - ジャンピングワイヤー（オス－オス）
 - ジャンピングワイヤー（オス－メス）
+
+### Arduino NANO
+Arduinoは、Atmel社が開発したRISCベースの8bitマイクロコントローラです。<br>
+Arduinoには専用の統合開発環境（IDE）が用意されており、これを使うことで簡単に組込みシステムやIoTを学習することができます。<br>
+
+
 
 
 ## 動作環境
