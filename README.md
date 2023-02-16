@@ -14,7 +14,7 @@
   - [開発環境のインストール](#開発環境のインストール)
   - [開発環境の設定](#開発環境の設定)
   - [BME280ドライバの導入](#BME280ドライバの導入)
-- [インストール方法](#インストール方法)
+- [計測用プログラムの仕様](#計測用プログラムの仕様)
 - [プログラムの使い方](#プログラムの使い方)
 
 
@@ -45,11 +45,7 @@ Arduinoには専用の統合開発環境（IDE）が用意されており、こ�
 使用する機材は、[Arduino NANO](https://store-usa.arduino.cc/products/arduino-nano/)です。
 
 <img src="https://user-images.githubusercontent.com/105481222/218243370-ba12f5e0-2bc8-4940-895f-f8c322819a36.jpg" width="30%">
-Arduino Nano<br>
-
-<br>
 <img src="https://user-images.githubusercontent.com/105481222/218243513-00cad4d9-73d2-409c-a94e-62d45b7c45f3.jpg" width="50%">
-ピン配置<br>
 
 ### 気象観測センサモジュール（BME280）
 BOSCH社のBME280を搭載した環境測定センサモジュールであり、気温・湿度・気圧の3つの環境情報を同時に計測することができます。<br>
@@ -58,19 +54,13 @@ BME280では、マイコンとの通信方式としてI2CまたはSPIをサポ�
 
 <br>
 <img src="https://user-images.githubusercontent.com/105481222/218245608-8fbaba36-5758-4598-a51d-9201fee508c5.jpg" width="30%">
-気象観測センサモジュール（BME280）<br>
-
-<br>
-<br>
 <img src="https://user-images.githubusercontent.com/105481222/218245691-f0bd3f5f-20c4-4b2c-bc0c-75650d625a0f.jpg" width="50%">
-回路図<br>
 
 ### SDカードモジュール
 計測したデータを記録するために、SDカードモジュールを使用します。<br>
 本プログラムでは、インターフェースとしてSPIを用いることを想定しています。
 
 <img src="https://user-images.githubusercontent.com/105481222/218246642-72687138-7596-4df8-9cd3-db0aa7f727cd.jpg" width="30%">
-SDカードモジュール<br>
 
 
 ## 開発環境
@@ -98,7 +88,7 @@ Arduino IDEはすべてのArduinoに対応した開発環境であるため、�
 3. リストアップされたSparkFun BME280のドライバをインストールする。
 
 
-## インストール方法
+## 計測用プログラムの仕様
 
 
 ## プログラムの使い方
