@@ -63,6 +63,9 @@ BME280では、マイコンとの通信方式としてI2CまたはSPIをサポ�
 <img src="https://user-images.githubusercontent.com/105481222/218246642-72687138-7596-4df8-9cd3-db0aa7f727cd.jpg" width="30%">
 
 ### 回路図
+Arduino NANOに、BMEセンサモジュールをI2Cインタフェースを用いて、<br>
+SDカードモジュールをSPIインタフェースを用いて接続します。
+
 <img src="https://user-images.githubusercontent.com/105481222/220910289-6179c7bb-d0c5-4a24-8c26-edd034809189.jpg" width="50%">
 
 
