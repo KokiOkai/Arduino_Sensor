@@ -79,7 +79,7 @@ void loop() {
         if ((currentTime - previousTime) >= interval) {
             File dataFile = SD.open("test.csv", FILE_WRITE);  // ファイルを開く、なければ新規作成
             if (dataFile) {
-                // シニアルモニタに「計測ID,気温,湿度,気圧」を表示する
+                // シリアルモニタに「計測ID,気温,湿度,気圧」を表示する
                 // SDカードにデータを記録する
                 measurementID = measurementID + 1;
                 Serial.print(strPad(measurementID));
